@@ -85,3 +85,35 @@ Run the framework using the following command:
 python3 main.py <target_url> --config config/default_config.yaml
 ```
 
+## Using OWASP ZAP Integration
+Ensure that OWASP ZAP is running on your machine and is accessible at the configured URL (default: [http://localhost:8080](http://localhost:8080)).
+
+## Using SQLmap for SQL Injection Testing
+The framework can integrate SQLmap to detect SQL injection vulnerabilities. Ensure that SQLmap is installed and is accessible via the command line.
+
+## Modules Overview
+
+### Scanner Module
+- **Purpose**: Scans for vulnerabilities such as SQL Injection and XSS.
+- **Customization**: Supports custom payloads defined in `default_config.yaml`.
+
+### SSL/TLS Check Module
+- **Purpose**: Analyzes the SSL/TLS configuration of the target URL.
+
+### Header Security Check Module
+- **Purpose**: Evaluates HTTP headers for security compliance and common best practices.
+
+### OWASP ZAP Module
+- **Purpose**: Automates the spidering and active scanning of web applications.
+- **Output**: Retrieves alerts and details with recommended solutions.
+
+## Generating Reports
+Reports are generated in PDF format and saved in the directory specified in the configuration file (`report_path`).
+
+## Troubleshooting
+- **Connection Errors**: Ensure OWASP ZAP or other integrated tools are running and configured correctly.
+- **Missing Tools**: Verify that dependencies like SQLmap and `wkhtmltopdf` are installed and in the system's PATH.
+
+## Contributing
+Contributions are welcome! Please fork this repository, create a new branch, and submit a pull request with your changes.
+
