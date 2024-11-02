@@ -1,6 +1,6 @@
-# 🔐 User Guide for **[Framework Name]**
+# 🔐 User Guide for **WebGuard**
 
-Welcome to the **[Framework Name]** user guide! This document provides comprehensive instructions on installation, configuration, and usage to conduct penetration testing on web applications. 
+Welcome to the **WebGuard** user guide! This document provides comprehensive instructions on installation, configuration, and usage to conduct penetration testing on web applications. 
 
 ## 📑 Table of Contents
 1. [📘 Introduction](#introduction)
@@ -15,7 +15,7 @@ Welcome to the **[Framework Name]** user guide! This document provides comprehen
 10. [🤝 Contributing](#contributing)
 
 ## 📘 Introduction
-**[Framework Name]** is a customizable penetration testing framework designed for web application security testing. It automates common security assessments, including vulnerability scans and attack simulations, providing comprehensive reports for developers and security professionals.
+**WebGuard** is a customizable penetration testing framework designed for web application security testing. It automates common security assessments, including vulnerability scans and attack simulations, providing comprehensive reports for developers and security professionals.
 
 ## ✨ Features
 - 🚀 **Automated vulnerability scanning** (e.g., SQL Injection, XSS)
