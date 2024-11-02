@@ -29,7 +29,7 @@ Welcome to the **[Framework Name]** user guide. This document provides comprehen
 To install the framework, follow these steps:
 
 1. Clone the repository:
-    ```bash
+    ```bashhttps://chatgpt.com/c/672565c7-9940-8011-a1b6-cb936149bcdc
     git clone https://github.com/yourusername/yourframework.git
     cd yourframework
     ```
@@ -76,3 +76,12 @@ reporting:
 zap:
   api_key: "your-zap-api-key"
   url: "http://localhost:8080"
+```
+
+## Running the Framework
+Run the framework using the following command:
+
+```bash
+python3 main.py <target_url> --config config/default_config.yaml
+```
+
