@@ -1,0 +1,30 @@
+scanner:
+  sql_injection: true
+  xss: true
+  csrf: false
+  auth_bypass: true
+  custom_headers:
+    User-Agent: "WebAppPenTestFramework"
+    Accept-Language: "en-US"
+
+attack_engine:
+  timeout: 5
+  retries: 2
+  payloads:
+    sql_injection: 
+      - "' OR '1'='1"
+      - "' OR 'a'='a"
+    xss: 
+      - "<script>alert('XSS')</script>"
+
+reporting:
+  output_format: "pdf"
+  report_path: "./results/"
+  include_details: true
+
+cookie_analysis:
+  - "Secure: Present, HttpOnly: Not present"
+  - "Secure: Not present, HttpOnly: Present"
+
+zap:
+  api_key: "60358e2jpm0d0ifm8rsd5f2fh9"
