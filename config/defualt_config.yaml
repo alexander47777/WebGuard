@@ -27,4 +27,4 @@ cookie_analysis:
   - "Secure: Not present, HttpOnly: Present"
 
 zap:
-  api_key: "60358e2jpm0d0ifm8rsd5f2fh9"
+  api_key: "YOUR_ZAP_API_KEY_HERE"
